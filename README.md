@@ -3,13 +3,13 @@ This is a simple binary to decimal converter and decimal to binary converter mad
 
 Binary to Decimal Converter
 To convert binary to decimal, call the binary_to_decimal function and pass the binary number as an argument:
-
+<code>
 def binary_to_decimal(binary):
     decimal = 0
     for digit in binary:
         decimal = decimal*2 + int(digit)
     return decimal
-    
+ </code> 
 Here's an example usage:
 binary_number = "1101"
 decimal_number = binary_to_decimal(binary_number)
